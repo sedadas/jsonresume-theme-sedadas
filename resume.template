@@ -101,10 +101,10 @@
           </div>
           {{/workBool}}
           {{#certificatesBool}}
-          <!-- AWARDS -->
+          <!-- CERTIFICATES -->
           <div class="box">
             <h2><i class="fas fa-certificate ico"></i> Certificates</h2>
-            <ul id="awards" class="clearfix">
+            <ul id="certificates" class="clearfix">
               {{#certificates}}
               <li>
                 <div class="year pull-left">{{ day }} {{month}} {{year}}</div>
@@ -313,7 +313,7 @@
           <!-- LANGUAGES -->
           <div class="box">
             <h2><i class="fas fa-language ico"></i> Languages</h2>
-            <ul class="list-group">
+            <ul id="languages" class="list-group">
               {{#languages}}
               <li class=" list-group-item">{{language}}<span class="skill badge pull-right">{{fluency}}</span></li>
               {{/languages}}
